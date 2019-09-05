@@ -9,8 +9,11 @@ Attributes: OrderDate,	Region,	Representative Name,	Item,	Units,	Unit Price
 
 Question: The store operates in the three regions and only the top performing employee in each region qualifies for a bonus. Find out which three employees are eligible to get bonuses for this year. Employees are measured on totat sales($)
 
-Solution File Name: Region_Wise_Each_Rep_Total_Sales.tbw
-Create a calcuated field Total Sales = [unit price]*[units sold]
+Solution Files
+1_Annual_Bonus_Analysis_Region_Wise_Each_Rep_Total_Sales.twb	
+1_Annual_Bonus_Analysis_Region_Wise_Rep_Total_Sales.png
+
+As part of solution, created a calcuated field Total Sales = [unit price]*[units sold]
 
 2. Timeseries, Aggregation and Filters
 
